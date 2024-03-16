@@ -1,5 +1,14 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Layout from './components/Layout';
+
 function App() {
-  return <>gege</>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}></Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
