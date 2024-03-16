@@ -5,6 +5,7 @@ import styles from './Header.module.scss';
 import HeaderIcon from './HeaderIcon';
 
 const Header = () => {
+  let a = 0;
   const { pathname } = useLocation();
   return (
     <>
