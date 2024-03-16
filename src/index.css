@@ -40,7 +40,8 @@ a {
 }
 
 .wrapper {
-  background: #f9f9f9;
+  background: #000;
+  color: #fff;
   min-width: 100%;
   min-height: 100vh;
 }
